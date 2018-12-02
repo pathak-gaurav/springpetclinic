@@ -9,6 +9,7 @@
         <module>petclinic-data</module>
         <module>petclinic-web</module>
     </modules>
+
     <packaging>pom</packaging>
 
     <name>springpetclinic</name>
@@ -24,13 +25,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <start-class>com.gaurav.springpetclinic.SpringpetclinicApplication</start-class>
         <java.version>1.8</java.version>
     </properties>
-
-    <dependencies>
-
-
-    </dependencies>
 
     <build>
         <plugins>
