@@ -4,7 +4,7 @@
 
     <groupId>com.gaurav</groupId>
     <artifactId>springpetclinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <modules>
         <module>petclinic-data</module>
         <module>petclinic-web</module>
@@ -51,7 +51,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:pathak-gaurav/springpetclinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>springpetclinic-0.0.3</tag>
   </scm>
 
 </project>
