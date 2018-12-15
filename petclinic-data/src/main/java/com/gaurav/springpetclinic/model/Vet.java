@@ -1,10 +1,16 @@
 package com.gaurav.springpetclinic.model;
 
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@Entity
+@Table(name = "VETS")
 public class Vet extends Person {
 
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "VETS_SPECIALTIES", joinColumns = @JoinColumn(name = "VET_ID"),
+            inverseJoinColumns = @JoinColumn(name = "SPECIALTY_ID"))
     private Set<Speciality> specialities = new HashSet<>();
 
     public Set<Speciality> getSpecialities() {
