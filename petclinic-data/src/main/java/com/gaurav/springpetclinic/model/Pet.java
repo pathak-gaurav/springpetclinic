@@ -2,12 +2,14 @@ package com.gaurav.springpetclinic.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "PETS")
 public class Pet extends BaseEntity {
 
-    @Column(name="NAME")
+    @Column(name = "NAME")
     private String name;
 
     @ManyToOne
@@ -18,8 +20,11 @@ public class Pet extends BaseEntity {
     @JoinColumn(name = "OWNER_ID")
     private Owner owner;
 
-    @Column(name="BIRTH_DATE")
+    @Column(name = "BIRTH_DATE")
     private LocalDate birtDate;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
+    private Set<Visit> visits = new HashSet<>();
 
     public String getName() {
         return name;
