@@ -2,7 +2,7 @@ package com.gaurav.springpetclinic.springdatajpa;
 
 import com.gaurav.springpetclinic.model.Visit;
 import com.gaurav.springpetclinic.repositories.VisitRepository;
-import com.gaurav.springpetclinic.VisitService;
+import com.gaurav.springpetclinic.services.VisitService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

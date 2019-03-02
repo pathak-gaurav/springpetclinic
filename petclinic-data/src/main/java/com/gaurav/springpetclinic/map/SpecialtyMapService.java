@@ -1,7 +1,7 @@
 package com.gaurav.springpetclinic.map;
 
 import com.gaurav.springpetclinic.model.Speciality;
-import com.gaurav.springpetclinic.SpecialtyService;
+import com.gaurav.springpetclinic.services.SpecialtyService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

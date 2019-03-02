@@ -1,7 +1,7 @@
 package com.gaurav.springpetclinic.map;
 
-import com.gaurav.springpetclinic.SpecialtyService;
-import com.gaurav.springpetclinic.VetService;
+import com.gaurav.springpetclinic.services.SpecialtyService;
+import com.gaurav.springpetclinic.services.VetService;
 import com.gaurav.springpetclinic.model.Speciality;
 import com.gaurav.springpetclinic.model.Vet;
 import org.springframework.context.annotation.Profile;

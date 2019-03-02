@@ -2,7 +2,7 @@ package com.gaurav.springpetclinic.springdatajpa;
 
 import com.gaurav.springpetclinic.model.Vet;
 import com.gaurav.springpetclinic.repositories.VetRepository;
-import com.gaurav.springpetclinic.VetService;
+import com.gaurav.springpetclinic.services.VetService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

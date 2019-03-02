@@ -1,4 +1,4 @@
-package com.gaurav.springpetclinic;
+package com.gaurav.springpetclinic.services;
 
 import java.util.Set;
 

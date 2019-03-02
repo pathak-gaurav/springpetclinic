@@ -1,6 +1,6 @@
 package com.gaurav.springpetclinic.map;
 
-import com.gaurav.springpetclinic.PetService;
+import com.gaurav.springpetclinic.services.PetService;
 import com.gaurav.springpetclinic.model.Pet;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
