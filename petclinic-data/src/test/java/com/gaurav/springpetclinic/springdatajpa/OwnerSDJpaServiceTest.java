@@ -1,4 +1,4 @@
-package com.gaurav.springpetclinic.services.springdatajpa;
+package com.gaurav.springpetclinic.springdatajpa;
 
 import com.gaurav.springpetclinic.model.Owner;
 import com.gaurav.springpetclinic.repositories.OwnerRepository;

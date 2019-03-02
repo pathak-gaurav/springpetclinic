@@ -1,8 +1,8 @@
-package com.gaurav.springpetclinic.services.springdatajpa;
+package com.gaurav.springpetclinic.springdatajpa;
 
 import com.gaurav.springpetclinic.model.PetType;
 import com.gaurav.springpetclinic.repositories.PetTypeRepository;
-import com.gaurav.springpetclinic.services.PetTypeService;
+import com.gaurav.springpetclinic.PetTypeService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

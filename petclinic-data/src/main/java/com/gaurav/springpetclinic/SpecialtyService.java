@@ -1,4 +1,4 @@
-package com.gaurav.springpetclinic.services;
+package com.gaurav.springpetclinic;
 
 import com.gaurav.springpetclinic.model.Speciality;
 

@@ -1,7 +1,7 @@
-package com.gaurav.springpetclinic.services.map;
+package com.gaurav.springpetclinic.map;
 
-import com.gaurav.springpetclinic.model.PetType;
-import com.gaurav.springpetclinic.services.PetTypeService;
+import com.gaurav.springpetclinic.model.Speciality;
+import com.gaurav.springpetclinic.SpecialtyService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -9,24 +9,24 @@ import java.util.Set;
 
 @Service
 @Profile({"default", "map"})
-public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
+public class SpecialtyMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
     @Override
-    public PetType findById(Long id) {
+    public Speciality findById(Long id) {
         return super.findById(id);
     }
 
     @Override
-    public PetType save(PetType object) {
+    public Speciality save(Speciality object) {
         return super.save(object);
     }
 
     @Override
-    public Set<PetType> findAll() {
+    public Set<Speciality> findAll() {
         return super.findAll();
     }
 
     @Override
-    public void delete(PetType object) {
+    public void delete(Speciality object) {
         super.delete(object);
     }
 

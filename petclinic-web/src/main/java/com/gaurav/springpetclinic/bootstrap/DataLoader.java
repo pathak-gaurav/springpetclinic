@@ -1,7 +1,7 @@
 package com.gaurav.springpetclinic.bootstrap;
 
+import com.gaurav.springpetclinic.*;
 import com.gaurav.springpetclinic.model.*;
-import com.gaurav.springpetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
