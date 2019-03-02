@@ -26,7 +26,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <start-class>com.gaurav.springpetclinic.SpringpetclinicApplication</start-class>
+        <start-class>com.gaurav.springpetclinic</start-class>
         <java.version>1.8</java.version>
     </properties>
 
